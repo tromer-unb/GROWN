@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: >-
+  If you use GROWN, cite this software repository and, after the manuscript
+  is published, also cite the associated peer-reviewed paper.
+type: software
+title: "GROWN: Growth through Reproducible, Orientation-aware Workflows for Nanostructures"
+authors:
+  - name: "GROWN contributors"
+version: "0.1.0"
+repository-code: "https://github.com/tromer-unb/GROWN"
+url: "https://github.com/tromer-unb/GROWN"
+license: MIT
+keywords:
+  - crystal growth
+  - atomistic simulation
+  - materials science
+  - structure prediction
+  - orientation-dependent growth
