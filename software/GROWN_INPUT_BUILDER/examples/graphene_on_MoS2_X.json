@@ -1,0 +1,25 @@
+{
+  "name": "Gr_on_MoS2_X",
+  "structure": "graphene_on_MoS2_seed.cif",
+  "template": "graphene_on_MoS2_template.cif",
+  "dimension": "2d",
+  "backend": "chgnet",
+  "growth_axis": "x",
+  "deposition_species": [
+    "C"
+  ],
+  "growth_origin_species": [
+    "C"
+  ],
+  "restrict_Z_fraction": 0.54,
+  "events": 8,
+  "template_extend_ncols": 12,
+  "template_column_period": 2,
+  "template_front_max_A": 3.5,
+  "template_connect_cutoff_A": 1.9,
+  "min_dist_A": 1.1,
+  "mobile_radius_A": 4.5,
+  "run_directory": "generated/graphene_on_MoS2_X",
+  "pbs_queue": "workq",
+  "env_activation": ""
+}

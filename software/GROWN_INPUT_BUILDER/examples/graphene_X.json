@@ -1,0 +1,20 @@
+{
+  "name": "Gr_X_demo",
+  "structure": "graphene_C128_periodicY.cif",
+  "dimension": "2d",
+  "backend": "chgnet",
+  "growth_axis": "x",
+  "deposition_species": [
+    "C"
+  ],
+  "events": 8,
+  "template_extend_ncols": 12,
+  "template_column_period": 2,
+  "template_front_max_A": 3.5,
+  "template_connect_cutoff_A": 1.8,
+  "min_dist_A": 1.0,
+  "mobile_radius_A": 4.0,
+  "run_directory": "generated/graphene_X",
+  "pbs_queue": "workq",
+  "env_activation": ""
+}

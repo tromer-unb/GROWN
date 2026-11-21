@@ -1,0 +1,23 @@
+{
+  "name": "Graphite_XZ_B",
+  "structure": "graphite_442_rectangular.cif",
+  "dimension": "layered",
+  "backend": "chgnet",
+  "growth_axis": "xz",
+  "deposition_species": [
+    "C"
+  ],
+  "impurities": {
+    "B": 0.09090909090909091
+  },
+  "events": 8,
+  "template_extend_ncols": 12,
+  "template_column_period": 8,
+  "template_front_max_A": 8.0,
+  "template_connect_cutoff_A": 1.9,
+  "min_dist_A": 1.0,
+  "mobile_radius_A": 4.5,
+  "run_directory": "generated/graphite_XZ_B",
+  "pbs_queue": "workq",
+  "env_activation": ""
+}
