@@ -1,0 +1,21 @@
+{
+  "name": "MoS2_X_demo",
+  "structure": "MoS2_2H_periodicY.cif",
+  "dimension": "2d",
+  "backend": "mace",
+  "growth_axis": "x",
+  "deposition_species": [
+    "Mo",
+    "S"
+  ],
+  "events": 8,
+  "template_extend_ncols": 12,
+  "template_column_period": 2,
+  "template_front_max_A": 4.0,
+  "template_connect_cutoff_A": 2.85,
+  "min_dist_A": 1.6,
+  "mobile_radius_A": 4.5,
+  "run_directory": "generated/MoS2_X",
+  "pbs_queue": "workq",
+  "env_activation": ""
+}

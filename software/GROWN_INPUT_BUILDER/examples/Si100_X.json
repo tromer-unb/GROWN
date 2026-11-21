@@ -1,0 +1,20 @@
+{
+  "name": "Si100_X_demo",
+  "structure": "Si_100.cif",
+  "dimension": "3d",
+  "backend": "mace",
+  "growth_axis": "x",
+  "deposition_species": [
+    "Si"
+  ],
+  "events": 8,
+  "template_extend_ncols": 12,
+  "template_column_period": 2,
+  "template_front_max_A": 5.0,
+  "template_connect_cutoff_A": 2.9,
+  "min_dist_A": 1.7,
+  "mobile_radius_A": 6.0,
+  "run_directory": "generated/Si100_X",
+  "pbs_queue": "workq",
+  "env_activation": ""
+}

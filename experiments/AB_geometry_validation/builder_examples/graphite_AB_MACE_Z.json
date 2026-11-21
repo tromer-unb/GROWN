@@ -1,0 +1,34 @@
+{
+  "name": "AB_graphite_MACE_growth_Z",
+  "structure": "AB_compact_Z_seed_256.cif",
+  "dimension": "layered_bulk",
+  "growth_axis": "z",
+  "backend": "mace",
+  "mace_model": "small",
+  "deposition_species": [
+    "C"
+  ],
+  "events": 30,
+  "temperature_K": 500,
+  "seed": 490596,
+  "flux_ML_s": 0.000368317057,
+  "relax_steps": 12,
+  "template_column_period": 2,
+  "template_extend_ncols": 32,
+  "template_front_max_A": 8.0,
+  "template_connect_cutoff_A": 1.8,
+  "template_min_neighbors": 0,
+  "template_occupancy_tol_A": 0.55,
+  "min_dist_A": 1.05,
+  "mobile_radius_A": 4.0,
+  "advanced_args": [
+    "--site-area",
+    "2.6369012807051333"
+  ],
+  "run_directory": "generated/AB_MACE_Z",
+  "pbs_queue": null,
+  "pbs_memory": "16gb",
+  "pbs_cores": 1,
+  "env_activation": "",
+  "enable_advisor_report": true
+}
