@@ -221,3 +221,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# GROWN: generated scientific runs and large numerical outputs
+**/generated/
+**/runs/
+*.traj
+*.gpw
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.npy
+*.npz
+*.log
+job.o*
+job.e*
+simulation.log
+growth_checkpoint.*
+growth_final.xyz
+growth_final.cif
+*.whl
+*.egg-info/
