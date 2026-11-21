@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible issue with the Input Builder or event engine
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Include the exact CLI action and relevant message.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducer
+    attributes:
+      label: Minimal reproduction
+      description: Include a small CIF/JSON case without private paths or credentials.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python, ASE, NumPy/SciPy and calculator versions (if used).
+  - type: textarea
+    id: safety
+    attributes:
+      label: Scientific interpretation
+      description: Distinguish program error, no-candidate STOP and an unverified physical conclusion.

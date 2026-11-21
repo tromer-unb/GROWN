@@ -1,0 +1,48 @@
+{
+  "name": "AB100MY",
+  "structure": "AB_C256_Y.cif",
+  "dimension": "layered_bulk",
+  "growth_axis": "y",
+  "backend": "mace",
+  "mace_model": "small",
+  "deposition_species": [
+    "C"
+  ],
+  "events": 100,
+  "temperature_K": 500,
+  "seed": 490596,
+  "flux_ML_s": 0.00111742387752317,
+  "relax_steps": 12,
+  "fmax_eV_A": 0.05,
+  "mobile_radius_A": 4.0,
+  "template_build_mode": "extend-columns",
+  "template_extend_ncols": 32,
+  "template_column_period": 24,
+  "template_column_tol_A": 0.2,
+  "template_front_max_A": 3.0,
+  "template_connect_cutoff_A": 1.8,
+  "min_dist_A": 1.05,
+  "template_occupancy_tol_A": 0.55,
+  "template_min_neighbors": 1,
+  "template_front_mode": "shell",
+  "growth_direction": "plus",
+  "template_species_mode": "template",
+  "growth_origin_species": [
+    "C"
+  ],
+  "pbc_override": [
+    1,
+    0,
+    1
+  ],
+  "advanced_args": [
+    "--site-area",
+    "8.0"
+  ],
+  "pbs_queue": null,
+  "pbs_memory": "16gb",
+  "pbs_cores": 1,
+  "env_activation": "",
+  "run_directory": "generated/graphite_AB100_MACE_Y",
+  "enable_advisor_report": true
+}
